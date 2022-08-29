@@ -21,6 +21,7 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+
 .module,
 .module-cover {
     background-position: 50%;
@@ -34,6 +35,15 @@ body::before {
   body::before {
     background-attachment: fixed;
   }
+}
+@media (max-width: 575px){
+  body::before {
+    width: 120%;
+    left: 0%;
+    top: 0%;
+    bottom: auto;
+    
+ }
 }
 
 a {
